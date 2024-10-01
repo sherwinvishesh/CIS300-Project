@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Sherwin Vishesh Jathanna's Portfolio" />
+    <meta name="keywords" content="Sherwin Vishesh, Portfolio, AI, Software Development" />
+    <meta name="author" content="Sherwin Vishesh Jathanna" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio - Sherwin Vishesh Jathanna</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header section for logo and navigation -->
+    <header>
+      <nav id="desktop-nav">
+        <div class="logo">Sherwin Vishesh Jathanna</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Sherwin Vishesh Jathanna</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="https://github.com/sherwinvishesh/Resume/blob/main/2025-Summer/Edits/Hackathon%20resume%202.pdf" target="_blank">Resume</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content section for the home page -->
+    <main>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/profile-pic.png" alt="Sherwin Vishesh Jathanna profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Sherwin Vishesh Jathanna</h1>
+          <p class="section__text__p2">Software Developer & AI/ML Enthusiast</p>
+          <div class="btn-container">
+            <a href="https://github.com/sherwinvishesh/Resume/blob/main/2025-Summer/Edits/Hackathon%20resume%202.pdf" target="_blank" class="btn btn-color-2">Download Resume (PDF)</a>
+          </button>
+            <button class="btn btn-color-1" onclick="location.href='./contact.html'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/in/sherwinvishesh'" />
+            <img src="./assets/github.png" alt="Github profile" class="icon" onclick="location.href='https://github.com/sherwinvishesh'" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Sherwin Vishesh Jathanna. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
